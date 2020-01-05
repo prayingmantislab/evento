@@ -86,7 +86,7 @@ const Navbar = () => {
   return (
     <NavbarWrapper className="navbar">
       <Container>
-        <Logo
+        <LogoNavbar
           href="/appmodern"
           logoSrc={LogoImage}
           title="App Modern"

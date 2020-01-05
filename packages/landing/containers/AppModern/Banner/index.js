@@ -69,6 +69,7 @@ const Banner = () => {
   };
   return (
     <BannerWrapper id="home">
+      <div>asdfasdfa</div>
       <Container>
         <BannerContent>
           <Fade up>
@@ -80,26 +81,23 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="The Revolution of
-          Ultimate Platform to
-          monitor your task"
+              content="שיווק, תכנון וייצור של עגלות מכירה ושירות"
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna
-          ipsum dolor sit amet consectetur."
+              content="מחלקות עיצוב, נגרות, מסגרות וצבע משולבות."
             />
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="Start Free trail" />
+              <Button className="primary" title="קבל הצעת מחיר" />
               <Button
                 className="text"
                 variant="textButton"
                 icon={<Icon icon={playCircle} />}
                 iconPosition="left"
-                title="Watch Video"
+                title="סרטון תדמית"
               />
             </ButtonGroup>
           </Fade>
